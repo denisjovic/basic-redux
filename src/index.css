@@ -11,3 +11,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  max-width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  background: #f3f3f3;
+  padding: 1em 2em;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+button {
+  padding: 1em 2em;
+  margin: 1em auto;
+  max-width: 50%;
+}
